@@ -1,5 +1,8 @@
 package exceptions;
 
-public class NotaInvalida {
+public class NotaInvalida extends Exception {
+    public NotaInvalida(String mensagem) {
+        super(mensagem);
+    }
     
 }
