@@ -36,7 +36,7 @@ public abstract class Obra {
     }
 
     public double mediaAvaliacoes() {
-        if (this.avaliacoes != null || this.avaliacoes.isEmpty()) {
+        if (this.avaliacoes == null || this.avaliacoes.isEmpty()) {
             return 0.0;
         }
 
